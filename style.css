@@ -607,6 +607,9 @@ footer span {
 .google-map {
   padding-bottom: 100%;
   position: relative;
+	border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
 }
 
 .google-map iframe {
@@ -614,9 +617,7 @@ footer span {
   width: 100%;
   left: 0;
   top: 0;
-	border-radius: 0.5rem;
-  box-shadow: var(--box-shadow);
-  border: var(--border);
+	
   position: absolute;
 	
 }
